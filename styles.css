@@ -1,0 +1,151 @@
+body {
+  background-color: #30475e;
+  color: #40bad5;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 300%;
+  font-family: 'Zilla Slab', serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Zilla Slab', serif;
+  color: #00909e;
+  margin-top: 70px;
+}
+
+p {
+  display: inline;
+}
+
+a{
+  color: #00909e;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a:hover {
+  color: white;
+}
+
+
+hr {
+  color: #e5dfdf;
+  border-style: dotted none none;
+  border-width: 20px;
+  margin: 50px auto auto auto;
+  max-width: 12%;
+}
+
+/****************             Class selector            ****************/
+
+
+.headings{
+font-size: 320%;
+margin-bottom: 35px;
+}
+
+.top-container {
+  background-color: #0f4c81;
+  padding: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  max-width: 240px;
+  position: absolute;
+  top: 12px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  max-width: 240px;
+  position: absolute;
+  left: 280px;
+  bottom: 400px;
+  padding-bottom: 70px;
+}
+
+.selfie {
+  border-radius: 60px;
+  max-width: 12%;
+  padding-top: 38px;
+}
+
+.full-stack {
+  text-decoration: underline;
+}
+
+.mountain {
+  width: 100%;
+}
+
+.skill-row {
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto 130px auto;
+  text-align: left;
+}
+
+.dev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.ps {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact_me{
+  display: inline-block;
+  width: 55%;
+
+}
+
+.bottom-container {
+  background-color: #393e46;
+  padding: 30px 0 3px 0;
+
+}
+
+.footer_heading{
+  font-size: 320%;
+  padding-top: 30px;
+}
+
+.Get-in-touch {
+	box-shadow: -1px 10px 12px -6px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:14px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:21px;
+	font-weight:bold;
+	padding:8px 22px;
+	text-decoration:none;
+	text-shadow:0 0 0 #5b8a3c;
+  margin: 40px;
+}
+.contact-me:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.contact-me:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright{
+  display: block;
+  margin: 30px auto;
+  font-size: 0.75rem;
+}
